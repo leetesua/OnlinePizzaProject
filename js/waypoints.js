@@ -41,7 +41,7 @@ function myFunction() {
 
 function main() {
 $('.add-to-cart').on('click', function() {
-  
+  $(this).addClass('active');
   $(this).text("Added");
 });
 }

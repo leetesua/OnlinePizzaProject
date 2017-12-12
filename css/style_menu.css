@@ -84,6 +84,14 @@ button {
     text-align:center;
     z-index: 1;
 } 
+.add-to-cart {
+	background:gray;
+	color:white;
+}
+.active {
+	background-color: #353535;
+	color: rgb(255, 255, 255);
+  }
 
 /*waypoints*/
 .os-animation{
