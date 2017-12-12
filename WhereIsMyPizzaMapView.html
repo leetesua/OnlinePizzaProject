@@ -50,8 +50,19 @@
             <div id="header"></div>
             <!--Remaining section-->
             <!-- Continue Coding here -->
-            <div id="ordertext"> Order NO.##123456 </br></div>
             
+            
+            
+<!--            <div id="ordertext"> Order NO.##123456 </br></div>-->
+
+            <!-- Show the order number -->
+            <div id="ordertext"> Order No.
+                <?php echo $orderno;?>
+            </div>
+        
+
+            <!-- Show the Google Map  -->
+
             <div id="map" align="center" valign="center"></div>
             <script>
               function initMap() {
@@ -81,7 +92,7 @@
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7L9U76qc4yzpJCBz1hSplChJxB7zkRlI&callback=initMap">
             </script>
             </div>
-
+            <!-- Show the driver's number -->
             <div id="ordertext"> Driver Phone Number: 123-456-789 </br></div>
             <div id="inner-wrapper">
               <section class="one-third"></section>     
